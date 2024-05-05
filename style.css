@@ -1,0 +1,90 @@
+/*KESELURUHAN HTML*/
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+/*KESELURUHAN HTML*/
+
+    /*HEAD GA DIAPA-APAIN*/
+
+    /*MASUK BODY*/
+        /*OPEN NAVBAR*/
+        .container-navbar{
+            background-color: crimson;
+            height: 10vh;
+        }
+            /*OPEN UL NAVBAR*/
+            .ul-navbar{
+                background-color: blue;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                display: flex;
+            }
+                .li-navbar{
+                    height: 25%;
+                    padding: 10px;
+                    border: 1px solid black;
+                    margin: 1px;
+                    background-color: green;
+                    list-style-type: none;
+                }
+                .li-navbar:hover{
+                    background-color: tomato;
+                    transition: .5s ease-in-out;
+                    transition-delay: .3s;
+                    border-radius: 8px;
+                }
+                    .a-navbar{
+                        color: white;
+                        text-decoration: none;
+                        font-weight: 800;
+                    }
+            /*CLOSE UL NAVBAR*/
+        /*CLOSE NAVBAR*/
+
+            /*OPEN CONTEN*/
+            .container-content{
+                background-color: green;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 80vh;
+            }
+
+            .a-content{
+                background-color: white;
+                box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                border-radius: 80px;
+                width: 480px;
+                height: 360px;
+                color: black;
+                font-size: 30px;
+                text-decoration: none;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .img-content{
+                width: 50%;
+                height: 50%;
+            }
+            /*CLOSE CONTEN*/
+
+            .container-footer{
+                height: 10vh;
+                background-color: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .h1-footer{
+                font-size: 40px;
+                color: white;
+            }
